@@ -1,0 +1,15 @@
+F:\backend-roadmap\backend-roadmap\c#\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+F:\backend-roadmap\backend-roadmap\c#\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+F:\backend-roadmap\backend-roadmap\c#\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+F:\backend-roadmap\backend-roadmap\c#\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+F:\backend-roadmap\backend-roadmap\c#\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+F:\backend-roadmap\backend-roadmap\c#\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.Form1.resources
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.GenerateResource.cache
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+F:\backend-roadmap\backend-roadmap\c#\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache
