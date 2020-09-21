@@ -1,0 +1,13 @@
+F:\backend-roadmap\backend-roadmap\c#\Hello World\bin\Debug\netcoreapp3.1\Hello World.exe
+F:\backend-roadmap\backend-roadmap\c#\Hello World\bin\Debug\netcoreapp3.1\Hello World.deps.json
+F:\backend-roadmap\backend-roadmap\c#\Hello World\bin\Debug\netcoreapp3.1\Hello World.runtimeconfig.json
+F:\backend-roadmap\backend-roadmap\c#\Hello World\bin\Debug\netcoreapp3.1\Hello World.runtimeconfig.dev.json
+F:\backend-roadmap\backend-roadmap\c#\Hello World\bin\Debug\netcoreapp3.1\Hello World.dll
+F:\backend-roadmap\backend-roadmap\c#\Hello World\bin\Debug\netcoreapp3.1\Hello World.pdb
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.csprojAssemblyReference.cache
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.AssemblyInfoInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.AssemblyInfo.cs
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.csproj.CoreCompileInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.dll
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.pdb
+F:\backend-roadmap\backend-roadmap\c#\Hello World\obj\Debug\netcoreapp3.1\Hello World.genruntimeconfig.cache
