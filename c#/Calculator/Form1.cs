@@ -11,14 +11,17 @@ namespace Calculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            zero();
+            Zero(); // Inicia a calculadora com 0
 
         }
 
-        private void button_Click(object sender, EventArgs e)
+        private void Button_Click(object sender, EventArgs e)
         {
+            // Função para adcionar os digitos na calculadora
+
             Button btn = sender as Button;
-            changeLabel(btn.Text);
+            // Pega o sender e passa como button para ler seu valor em ChangeLabel
+            ChangeLabel(btn.Text);
         }
 
         public Form1()
@@ -26,73 +29,82 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void changeLabel(string value)
+        private void ChangeLabel(string value)
         {
-
+            // Adiciona os número digitado na interface da calculadora se digitos < 10
+            // Se o digito for 0, apaga o digito e muda para o número digitado
             if(label1.Text.Length < 10)
                 label1.Text =  label1.Text == "0" ? label1.Text = value : label1.Text += value;
 
         }
 
-        public void zero()
+        public void Zero()
         {
+            // Muda o label1 (texto grande na calculadora) para 0
             label1.Text = "0";
         }
 
-        private void add(object sender, EventArgs e)
+        private void Add(object sender, EventArgs e)
         {
-            val1 = Convert.ToDouble(label1.Text);
-            equals = "add";
-            label2.Text = label1.Text + " + ";
-            zero();
+            // Função para somar dois valores
+
+            val1 = Convert.ToDouble(label1.Text); // Passa o valor da label1 para uma variável Double
+            equals = "Add"; // Sinaliza que ao apertar o botão "=" uma soma será feita
+            // Passa o valor de label1 (texto grande) para label2 (texto pequeno acima)
+            // O valor passado será acompanhado do símbolo da operação
+            label2.Text = label1.Text + " + ";             
+            Zero();
         }
 
-        private void subtract(object sender, EventArgs e)
+        private void Subtract(object sender, EventArgs e)
         {
+            // Função para subtrair dois valores
+            // Similar a função "Add"
+            
             val1 = Convert.ToDouble(label1.Text);
-            equals = "subtract";
+            equals = "Subtract";
             label2.Text = label1.Text + " - ";
-            zero();
+            Zero();
         }
 
-        private void multiply(object sender, EventArgs e)
+        private void Multiply(object sender, EventArgs e)
         {
             val1 = Convert.ToDouble(label1.Text);
-            equals = "multiply";
+            equals = "Multiply";
             label2.Text = label1.Text + " X ";
-            zero();
+            Zero();
         }
 
-        private void divide(object sender, EventArgs e)
+        private void Divide(object sender, EventArgs e)
         {
             val1 = Convert.ToDouble(label1.Text);
-            equals = "divide";
+            equals = "Divide";
             label2.Text = label1.Text + " ÷ ";
-            zero();
+            Zero();
         }
 
-        private void reset(object sender, EventArgs e)
+        private void Reset(object sender, EventArgs e)
         {
-            zero();
+            Zero();
             label2.Text = "";
         }
 
         private void clear(object sender, EventArgs e)
         {
-            zero();
+            Zero();
         }       
 
-        private void delete(object sender, EventArgs e)
+        private void Delete(object sender, EventArgs e)
         {
             if (label1.Text != "0" && label1.Text.Length >= 0)
                 label1.Text = label1.Text.Substring(0, label1.Text.Length - 1);
             else
-                zero();
+                Zero();
             if (label1.Text == "")
-                zero();
+                Zero();
         }
 
-        private void percent(object sender, EventArgs e)
+        private void Percent(object sender, EventArgs e)
         {
             if (label2.Text == "")
                 clear(sender, e);
@@ -104,20 +116,20 @@ namespace Calculator
 
                 switch (equals)
                 {
-                    case "add":
+                    case "Add":
                         label1.Text = Convert.ToString(val1 + (val1 * (val2 / 100)));
                         equals = "skip";
                         break;
 
-                    case "subtract":
+                    case "Subtract":
                         label1.Text = Convert.ToString(val1 - (val1 * (val2 / 100)));
                         equals = "skip";
                         break;
-                    case "multiply":
+                    case "Multiply":
                         label1.Text = Convert.ToString(val1 * (val2 / 100));
                         equals = "skip";
                         break;
-                    case "divide":
+                    case "Divide":
                         label1.Text = Convert.ToString(val1 / (val2 / 100));
                         equals = "skip";
                         break;
@@ -127,25 +139,25 @@ namespace Calculator
             }
         }
 
-        private void root(object sender, EventArgs e)
+        private void Root(object sender, EventArgs e)
         {
             label2.Text = "√(" + label1.Text + ")";
             label1.Text = Convert.ToString(Math.Sqrt(Convert.ToDouble(label1.Text)));
         }
 
-        private void squared(object sender, EventArgs e)
+        private void Squared(object sender, EventArgs e)
         {
             label2.Text = label1.Text + "²";
             label1.Text = Convert.ToString(Math.Pow(Convert.ToDouble(label1.Text), 2));
         }
 
-        private void onePerX(object sender, EventArgs e)
+        private void OnePerX(object sender, EventArgs e)
         {
             label2.Text = "1/" + label1.Text;
             label1.Text = Convert.ToString(1/Convert.ToDouble(label1.Text));
         }
 
-        private void positiveNegative(object sender, EventArgs e)
+        private void PositiveNegative(object sender, EventArgs e)
         {
             if (label1.Text[0] == '-')
                 label1.Text = label1.Text.Remove(0, 1);
@@ -154,13 +166,13 @@ namespace Calculator
                     label1.Text = label1.Text.Insert(0, "-");
         }
 
-        private void dot(object sender, EventArgs e)
+        private void Dot(object sender, EventArgs e)
         {
             if(!label1.Text.Contains(','))
                 label1.Text = label1.Text.Insert(1, ",");
         }
 
-        private void result(object sender, EventArgs e)
+        private void Result(object sender, EventArgs e)
         {
 
             val2 = Convert.ToDouble(label1.Text);
@@ -168,19 +180,19 @@ namespace Calculator
 
             switch (equals)
             {
-                case "add":
+                case "Add":
                     label1.Text = Convert.ToString(val1 + val2);
                     equals = "skip";
                     break;
-                case "subtract":
+                case "Subtract":
                     label1.Text = Convert.ToString(val1 - val2);
                     equals = "skip";
                     break;
-                case "multiply":
+                case "Multiply":
                     label1.Text = Convert.ToString(val1 * val2);
                     equals = "skip";
                     break;
-                case "divide":
+                case "Divide":
                     if (val2 != 0)
                         label1.Text = Convert.ToString(val1 / val2);
                     else
