@@ -168,8 +168,8 @@ namespace Calculator
 
         private void Dot(object sender, EventArgs e)
         {
-            if(!label1.Text.Contains(','))
-                label1.Text = label1.Text.Insert(1, ",");
+            if (!label1.Text.Contains(','))
+                label1.Text = label1.Text[0] != '-' ? label1.Text.Insert(1, ",") : label1.Text.Insert(2, ",");
         }
 
         private void Result(object sender, EventArgs e)

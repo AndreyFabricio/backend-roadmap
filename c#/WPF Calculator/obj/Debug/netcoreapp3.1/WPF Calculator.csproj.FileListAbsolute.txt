@@ -1,0 +1,19 @@
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.exe
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.deps.json
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.runtimeconfig.json
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.runtimeconfig.dev.json
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.dll
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\bin\Debug\netcoreapp3.1\WPF Calculator.pdb
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.csprojAssemblyReference.cache
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\App.g.cs
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator_MarkupCompile.cache
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator_MarkupCompile.lref
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\MainWindow.baml
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.g.resources
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.AssemblyInfoInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.AssemblyInfo.cs
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.csproj.CoreCompileInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.dll
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.pdb
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Debug\netcoreapp3.1\WPF Calculator.genruntimeconfig.cache
