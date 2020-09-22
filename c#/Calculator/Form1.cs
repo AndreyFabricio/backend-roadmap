@@ -114,6 +114,16 @@ namespace Calculator
                 val2 = Convert.ToDouble(label1.Text);
                 label2.Text = label2.Text + val2.ToString() + "%";
 
+                if (label2.Text.Length - label2.Text.Replace("%", "").Length < 1)
+                {
+                    val2 = Convert.ToDouble(label1.Text);
+                    label2.Text = label2.Text + val2.ToString() + "%";
+                }
+                else
+                {
+                    equals = "skip";
+                }
+
                 switch (equals)
                 {
                     case "Add":
