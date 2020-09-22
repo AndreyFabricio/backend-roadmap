@@ -169,7 +169,23 @@ namespace Calculator
         private void Dot(object sender, EventArgs e)
         {
             if (!label1.Text.Contains(','))
-                label1.Text = label1.Text[0] != '-' ? label1.Text.Insert(1, ",") : label1.Text.Insert(2, ",");
+            {
+
+                if (label1.Text[0] != '-')
+                {
+                    label1.Text =
+                    label1.Text.Length < 2 ? label1.Text.Insert(1, ",")
+                    : label1.Text.Insert(label1.Text.Length, ",");
+                }
+                else
+                {
+                    label1.Text =
+                    label1.Text.Length < 3 ? label1.Text.Insert(2, ",")
+                    : label1.Text.Insert(label1.Text.Length, ",");
+                }
+                
+            }
+                
         }
 
         private void Result(object sender, EventArgs e)

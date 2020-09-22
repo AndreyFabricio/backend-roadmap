@@ -45,8 +45,25 @@ namespace WPF_Calculator
             string lbl = label1.Content.ToString();
 
             if (!lbl.Contains(','))
-                label1.Content = lbl[0] != '-' ? lbl.Insert(1, ",") : lbl.Insert(2, ",");
+            {
+
+                if (lbl[0] != '-')
+                {
+                    label1.Content =
+                        lbl.Length < 2 ? label1.Content.ToString().Insert(1, ",")
+                        : label1.Content.ToString().Insert(lbl.Length, ",");
+                }
+                else
+                {
+                    label1.Content =
+                        lbl.Length < 3 ? label1.Content.ToString().Insert(2, ",")
+                        : label1.Content.ToString().Insert(lbl.Length, ",");
+                }
+
+            }
         }
+
+
 
         public MainWindow()
         {
