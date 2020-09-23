@@ -1,0 +1,1 @@
+Nessa pasta estão os .exe e outros arquivos/pastas dos projetos para serem testados.

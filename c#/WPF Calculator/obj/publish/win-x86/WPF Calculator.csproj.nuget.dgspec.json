@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\backend-roadmap\\backend-roadmap\\c#\\WPF Calculator\\WPF Calculator.csproj": {}
+  },
+  "projects": {
+    "F:\\backend-roadmap\\backend-roadmap\\c#\\WPF Calculator\\WPF Calculator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\backend-roadmap\\backend-roadmap\\c#\\WPF Calculator\\WPF Calculator.csproj",
+        "projectName": "WPF Calculator",
+        "projectPath": "F:\\backend-roadmap\\backend-roadmap\\c#\\WPF Calculator\\WPF Calculator.csproj",
+        "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
+        "outputPath": "F:\\backend-roadmap\\backend-roadmap\\c#\\WPF Calculator\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x86",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
