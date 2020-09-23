@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace WPF_Calculator
 {
@@ -10,7 +11,101 @@ namespace WPF_Calculator
     public partial class MainWindow : Window
     {
         double val1, val2;
-        string equals;        
+        string equals;
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+
+            switch (e.Key)
+            {                
+                case Key.Back:
+                    btnDel.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Delete:
+                    btnDel.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D0:
+                    btn0.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D1:
+                    btn1.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D2:
+                    btn2.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D3:
+                    btn3.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D4:
+                    btn4.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D5:
+                    btn5.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D6:
+                    btn6.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D7:
+                    btn7.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D8:
+                    btn8.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.D9:
+                    btn9.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad0:
+                    btn0.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad1:
+                    btn1.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad2:
+                    btn2.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad3:
+                    btn3.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad4:
+                    btn4.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad5:
+                    btn5.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad6:
+                    btn6.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad7:
+                    btn7.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad8:
+                    btn8.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.NumPad9:
+                    btn9.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Multiply:
+                    btnMultiply.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Add:
+                    btnAdd.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Subtract:
+                    btnSubtract.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Decimal:
+                    btnDot.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Divide:
+                    btnDivide.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                case Key.Enter:
+                    btnEquals.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+                    break;
+                default:
+                    break;
+            }
+        }
 
         private void ChangeLabel(object sender, RoutedEventArgs e)
         {
