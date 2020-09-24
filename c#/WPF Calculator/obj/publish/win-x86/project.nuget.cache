@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sPYQ/ZL8Tuu3FlPWMvMOWHilYq0B87uOX/TCNIuJAIGbSYHH+Nad6GFiJi79qCWncM+lLOgnA8yo3lNi7F8GKw==",
+  "dgSpecHash": "SZ0fOklodrmIzTvwdNk20JIYcLtySu43GjMfsdmiFJMtfYkFUKkKqmGr8sYH3Fc99T7yChKpo4Su2Wrih6GQAA==",
   "success": true,
   "projectFilePath": "F:\\backend-roadmap\\backend-roadmap\\c#\\WPF Calculator\\WPF Calculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrey\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\3.1.8\\microsoft.netcore.app.runtime.win-x86.3.1.8.nupkg.sha512",
+    "C:\\Users\\Andrey\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\3.1.8\\microsoft.windowsdesktop.app.runtime.win-x86.3.1.8.nupkg.sha512",
+    "C:\\Users\\Andrey\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\3.1.8\\microsoft.aspnetcore.app.runtime.win-x86.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }

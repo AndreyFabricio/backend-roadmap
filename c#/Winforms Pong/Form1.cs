@@ -17,5 +17,9 @@ namespace Winforms_Pong
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.BackColor = System.Drawing.Color.FromArgb(8, 13, 18);
+        }
     }
 }

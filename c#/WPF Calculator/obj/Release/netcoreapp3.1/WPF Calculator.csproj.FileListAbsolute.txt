@@ -16,3 +16,4 @@ F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Release\netcoreapp3.1\W
 F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Release\netcoreapp3.1\WPF Calculator.dll
 F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Release\netcoreapp3.1\WPF Calculator.pdb
 F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Release\netcoreapp3.1\WPF Calculator.genruntimeconfig.cache
+F:\backend-roadmap\backend-roadmap\c#\WPF Calculator\obj\Release\netcoreapp3.1\WPF Calculator.csprojAssemblyReference.cache

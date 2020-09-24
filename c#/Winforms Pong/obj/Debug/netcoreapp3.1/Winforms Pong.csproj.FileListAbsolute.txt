@@ -1,0 +1,16 @@
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\bin\Debug\netcoreapp3.1\Winforms Pong.exe
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\bin\Debug\netcoreapp3.1\Winforms Pong.deps.json
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\bin\Debug\netcoreapp3.1\Winforms Pong.runtimeconfig.json
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\bin\Debug\netcoreapp3.1\Winforms Pong.runtimeconfig.dev.json
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\bin\Debug\netcoreapp3.1\Winforms Pong.dll
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\bin\Debug\netcoreapp3.1\Winforms Pong.pdb
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.csprojAssemblyReference.cache
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms_Pong.Form1.resources
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.csproj.GenerateResource.cache
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.AssemblyInfoInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.AssemblyInfo.cs
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.csproj.CoreCompileInputs.cache
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.dll
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.pdb
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms Pong.genruntimeconfig.cache
+F:\backend-roadmap\backend-roadmap\c#\Winforms Pong\obj\Debug\netcoreapp3.1\Winforms_Pong.Properties.Resources.resources

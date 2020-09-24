@@ -1,0 +1,25 @@
+------Cores Base------
+
+Name: Russian Green
+Hex: #6C935C
+RGB: (108, 147, 92)
+
+Name: Queen Blue
+Hex: #3C638E
+RGB: (60, 99, 142)
+
+Name: Tennis White
+Hex: #fefff3
+RGB: (254,255,243)
+
+Name: Tennis Brown/Orange
+Hex: #993300
+RGB: (153,51,0)
+
+------Menu------
+
+Background: 080D12
+
+Texto: A8C29E
+
+Logo: FFA77A
