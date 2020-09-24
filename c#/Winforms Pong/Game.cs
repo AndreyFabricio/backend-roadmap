@@ -14,5 +14,10 @@ namespace Winforms_Pong
         {
             InitializeComponent();
         }
+
+        private void playball_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
