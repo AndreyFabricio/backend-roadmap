@@ -39,12 +39,22 @@ namespace Winforms_Pong
         {
             //Call the Process.Start method to open the default browser
             //with a URL:
-            var ps = new ProcessStartInfo("https://github.com/AndreyFabricio")
+            var linkStart = new ProcessStartInfo("https://github.com/AndreyFabricio")
             {
                 UseShellExecute = true,
                 Verb = "open"
             };
-            Process.Start(ps);
+            Process.Start(linkStart);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form = new Game();
+            form.Location = this.Location;
+            form.StartPosition = FormStartPosition.Manual;
+            form.FormClosing += delegate { this.Show(); };
+            form.Show();
+            this.Hide();
         }
     }
 }
