@@ -57,11 +57,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAeQAAAChCAYAAAAWTMySAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsPAAALDwGS+QOlAAD/hklE
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsMAAALDAE/QCLIAAD/hklE
         QVR4Xuz9B3xVV5bni7+e6enp6Zl+0/3/vzc9naq7a6q6qis722BsAzbgUNFll11ll3O2wWRMjibnHEQQ
         QkQJFECZLEACgQIZJJGRyEHCGBvvt77rnHV17lWWAbuqOJ/P0r06Ye+Vf2vvs8+5/9ft7fZ2e7u93d5u
         b7e329vt7fZ2e7u93d5ub7e329vt7fZ2e7u93d5ub7e329vt7aZtzrk/q4H+002kav35rHzlWw281cq3
